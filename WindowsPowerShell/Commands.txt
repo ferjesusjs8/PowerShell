@@ -16,3 +16,5 @@ $TodosOsArquivos = gci -Recurse -File
 $TodosOsArquivos.Length
 
 gci -Recurse -File | Where-Object Name -Like "*_migrando_*" | Select-Object Name, Length
+
+"{0:N2} GB" -f (1234568790/1GB)
