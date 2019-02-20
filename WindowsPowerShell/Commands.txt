@@ -1,0 +1,11 @@
+$PROFILE
+
+$PROFILE.AllUsersAllHosts
+
+New-Alias rename Rename-Item
+
+dir
+
+cls
+
+exit
