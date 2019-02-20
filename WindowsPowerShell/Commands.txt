@@ -9,3 +9,10 @@ dir
 cls
 
 exit
+
+$TodosOsItems = gci -Recurse
+$TodosOsItems.Lenght
+$TodosOsArquivos = gci -Recurse -File
+$TodosOsArquivos.Length
+
+gci -Recurse -File | Where-Object Name -Like "*_migrando_*" | Select-Object Name, Length
